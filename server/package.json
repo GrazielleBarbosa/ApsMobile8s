@@ -1,0 +1,20 @@
+{
+  "name": "apsmobile-api",
+  "version": "1.0.0",
+  "description": "API intermediária do projeto APS Mobile — UNIP Ciência da Computação",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test tests/environmentAlerts.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.1"
+  }
+}

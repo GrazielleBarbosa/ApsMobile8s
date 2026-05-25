@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+server/.env
+.env
+*.log
+
+# Banco de dados SQLite gerado em runtime — não deve ser versionado
+*.db
+*.db-shm
+*.db-wal
